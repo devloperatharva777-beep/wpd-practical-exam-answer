@@ -1,0 +1,57 @@
+<!-- Question: Create a webpage that displays first year timetable. Make effective use of rowspan and colspan attributes. Make use of <th> tag. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Year Timetable</title>
+</head>
+<body>
+    <center>
+        <h2>First Year Computer Diploma Timetable</h2>
+        <table border="1" width="90%">
+            <tr>
+                <th>Time</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <th>9:00 - 10:00</th>
+                <td>WPD</td>
+                <td>MATHS</td>
+                <td>WPD</td>
+                <td>ENG</td>
+                <td>PHY</td>
+            </tr>
+            <tr>
+                <th>10:00 - 11:00</th>
+                <td>MATHS</td>
+                <td>WPD</td>
+                <td>PHY</td>
+                <td>WPD</td>
+                <td>ENG</td>
+            </tr>
+            <tr>
+                <th>11:00 - 11:15</th>
+                <th colspan="5">BREAK</th>
+            </tr>
+            <tr>
+                <th>11:15 - 1:15</th>
+                <td>WPD LAB</td>
+                <td rowspan="2">PROJECT</td>
+                <td>ENG LAB</td>
+                <td>PHY LAB</td>
+                <td>WPD LAB</td>
+            </tr>
+            <tr>
+                <th>1:15 - 2:00</th>
+                <th>LUNCH</th>
+                <th>LUNCH</th>
+                <th>LUNCH</th>
+                <th>LUNCH</th>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
